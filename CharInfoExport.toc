@@ -1,0 +1,8 @@
+## Interface: 90002
+## Title: Character Information Export
+## Version: 0.0.1
+## Notes: excel is sexy
+## Author: hosemachine27
+## DefaultState: enabled
+
+CharInfoExport.lua

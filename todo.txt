@@ -1,0 +1,33 @@
+on PLAYER_EQUIPMENT_CHANGED(
+    update level if not currently max
+    equipped gear/weapons
+        current enchants/gems
+    current stat weights
+    current professions & skill level
+)
+
+use primary/secondary stats to find (
+    best consumables - flask/elixir, food (well fed), pots 
+        per xpac depending on lvl
+    best leveling heirlooms per gear type (plate, mail, leather, cloth)
+)
+
+-- name https://wowprogramming.com/docs/api/UnitName.html
+-- title 
+-- race https://wowprogramming.com/docs/api/UnitRace.html
+-- class https://wowprogramming.com/docs/api/UnitClass.html
+-- spec https://wowprogramming.com/docs/api/GetActiveSpecGroup.html + https://wowprogramming.com/docs/api/GetComparisonStatistic.html
+-- level https://wowprogramming.com/docs/api/UnitLevel.html
+-- primary stats (strength, agility, stamina, intellect, spirit) https://wowprogramming.com/docs/api/UnitStat.html
+-- secondary stats (crit,haste,vers,mastery)
+-- selected talents
+-- professions https://wowprogramming.com/docs/api/GetProfessions.html
+-- profession skill lvl https://wowprogramming.com/docs/api/GetProfessionInfo.html
+-- gear
+-- weapons
+-- enchants/gems
+-- transmog
+
+
+
+    
